@@ -807,6 +807,11 @@ h4 {
     color: #FFFFFF !important;
 }
 
+#btnpadding {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
     color: #FFFFFF !important;
@@ -1068,7 +1073,11 @@ h4 {
     }
 
     form {
-        padding: 5px;
+        padding: auto;
+    }
+
+    #find {
+        margin-top: 30px;
     }
 
     .close-lightbox {

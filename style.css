@@ -418,6 +418,8 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
+
 }
 
 .nav>li>.dropdown a {
@@ -668,8 +670,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color:#000416 !important;
+    color: #000416 !important;
 }
+
 
 .container {
     max-width: 1000px;
@@ -795,7 +798,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:#BB5C00;
+    background-color: #BB5C00;
 }
 
 .tc-white {
@@ -803,7 +806,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:#BB5C00;
+    background: #BB5C00;
     color: #FFFFFF !important;
 }
 
@@ -1102,6 +1105,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 767px) {

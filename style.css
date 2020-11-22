@@ -283,15 +283,6 @@ a:hover {
     padding-left: 0;
 }
 
-.col-sm-4 li {
-    margin-bottom: 25px;
-    margin-top: 15px;
-}
-
-.col-sm-4 li a {
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -765,14 +756,11 @@ h4 {
     color: #FFFFFF !important;
 }
 
-.portfolio-thumb {
-    margin-bottom: 24px;
-    margin: auto;
-}
+
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .avatar {
@@ -872,13 +860,17 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media (min-width:768px) {
     .navbar .nav {
         max-width: 80%
     }
 
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+
+    .b-parallax {
+        background-attachment: scroll
     }
 }
 
@@ -1061,6 +1053,10 @@ h4 {
 
     #find {
         margin-top: 30px;
+    }
+
+    form {
+        padding: 5px
     }
 
     .close-lightbox {
